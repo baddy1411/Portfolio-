@@ -209,7 +209,7 @@ function App() {
               <div className="mb-8 relative group w-max animate-fade-in">
                 <div className="absolute -inset-1 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
                 <img 
-                  src="/profile.jpg" 
+                  src="public/profile.jpg" 
                   alt="Badrish MS" 
                   className="relative w-32 h-32 rounded-full object-cover border-2 border-neutral-200 dark:border-neutral-900 grayscale group-hover:grayscale-0 transition-all duration-500"
                 />
@@ -253,7 +253,7 @@ function App() {
                   View Projects
                 </a>
                 <a 
-                  href="/resume.pdf" 
+                  href="public/resume.pdf" 
                   className="px-5 py-2.5 rounded-lg bg-neutral-100 dark:bg-neutral-900/50 text-neutral-700 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-800 hover:text-neutral-900 dark:hover:text-neutral-100 transition-all text-sm font-medium hover:scale-105 active:scale-95"
                 >
                   Resume
